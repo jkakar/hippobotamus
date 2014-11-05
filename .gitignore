@@ -1,7 +1,9 @@
-ebin/*
 *.beam
-deps/*
-rel/hippo
 .concrete/DEV_MODE
-deps.plt
 .eunit
+.rebar
+_rel
+deps.plt
+deps/*
+ebin/*
+rel/hippo

@@ -1,14 +1,14 @@
 %% -*- mode: erlang -*-
 {application, hippo,
- [
-  {description, "the hippo project"},
-  {vsn, "0.0.1"},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {mod, { hippo_app, []}},
-  {env, []}
+ [{description, "Hippo is a chat bot"}
+ ,{vsn, "0.0.1"}
+ ,{registered, []}
+ ,{applications, [kernel
+                 ,stdlib
+                 ,ssl
+                 ,inets
+                 ]}
+ ,{mod, {hippo_app, []}}
+ ,{env, []}
  ]}.
 %% vim: set filetype=erlang tabstop=2

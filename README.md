@@ -1,1 +1,1 @@
-Hippo is a chat bot.
+Hippobotamus is a chat bot.

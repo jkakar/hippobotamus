@@ -5,8 +5,9 @@
  ,{registered, []}
  ,{applications, [kernel
                  ,stdlib
-                 ,ssl
-                 ,inets
+                 %% ,ssl
+                 %% ,inets
+                 ,cowboy
                  ]}
  ,{mod, {hippo_app, []}}
  ,{env, []}

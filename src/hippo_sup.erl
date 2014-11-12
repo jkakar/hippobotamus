@@ -2,9 +2,8 @@
 
 -behaviour(supervisor).
 
--export([
-         init/1,
-         start_link/0
+-export([init/1
+        ,start_link/0
         ]).
 
 start_link() ->

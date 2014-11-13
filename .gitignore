@@ -10,6 +10,7 @@ ebin
 log
 erl_crash.dump
 .rebar
+.rebar3
 _rel
 _deps
 _plugins

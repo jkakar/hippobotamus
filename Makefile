@@ -1,7 +1,7 @@
 all: update compile release
 
 clean:
-	-rm _deps _rel -rf
+	-rm -rf _deps _rel
 
 update:
 	rebar3 update

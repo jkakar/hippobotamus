@@ -1,1 +1,9 @@
-Hippobotamus is a chat bot.
+hippo
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile

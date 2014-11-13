@@ -1,3 +1,4 @@
+%% -*- mode: erlang -*-
 {application, hippo,
  [{description, "An OTP application"}
  ,{vsn, "0.1.0"}
@@ -6,6 +7,8 @@
  ,{applications,
    [kernel
    ,stdlib
+   ,cowboy
+   ,lager
    ]}
  ,{env,[]}
  ,{modules, []}

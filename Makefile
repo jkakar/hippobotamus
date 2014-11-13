@@ -10,7 +10,8 @@ compile:
 	rebar3 compile
 
 release:
-	./relx -i true --dev-mode false release tar
+	rebar3 tar -i true -d false
+	rebar3 release
 
 deploy:
 	hk slug _rel/hippo/hippo-0.1.0.tar.gz
